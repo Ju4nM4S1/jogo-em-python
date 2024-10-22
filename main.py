@@ -32,20 +32,20 @@ scrn = pygame.display.set_mode((X, Y))
 pygame.display.set_caption('Sprites')
 
 pygame.display.set_caption('image')
-cenario1 = pygame.image.load("C:\\Users\\Usuário\Documents\\Juan M. Silva\mostracientifica\\images\\estrelas 1.png")
-cenario2 = pygame.image.load("C:\\Users\\Usuário\Documents\\Juan M. Silva\mostracientifica\\images\\estrelas 2.png")
-cenario3 = pygame.image.load("C:\\Users\\Usuário\Documents\\Juan M. Silva\mostracientifica\\images\\estrelas 3.png")
-cenario4 = pygame.image.load("C:\\Users\\Usuário\Documents\\Juan M. Silva\mostracientifica\\images\\estrelas 4.png")
-cenario5 = pygame.image.load("C:\\Users\\Usuário\Documents\\Juan M. Silva\mostracientifica\\images\\estrelas 5.png")
-cenario100 = pygame.image.load("C:\\Users\\Usuário\Documents\\Juan M. Silva\mostracientifica\\images\\terra1.png")
-cenario101 = pygame.image.load("C:\\Users\\Usuário\Documents\\Juan M. Silva\mostracientifica\\images\\terra2.png")
-cenario102 = pygame.image.load("C:\\Users\\Usuário\Documents\\Juan M. Silva\mostracientifica\\images\\terra3.png")
-cenario103 = pygame.image.load("C:\\Users\\Usuário\Documents\\Juan M. Silva\mostracientifica\\images\\terra4.png")
-cenario104 = pygame.image.load("C:\\Users\\Usuário\Documents\\Juan M. Silva\mostracientifica\\images\\lua.png")
-inicio = pygame.image.load("C:\\Users\\Usuário\Documents\\Juan M. Silva\mostracientifica\\images\\inicio.png")
-morte = pygame.image.load("C:\\Users\\Usuário\Documents\\Juan M. Silva\mostracientifica\\images\\morte.png")
-venceu = pygame.image.load("C:\\Users\\Usuário\Documents\\Juan M. Silva\mostracientifica\\images\\venceu.png")
-et = pygame.image.load("C:\\Users\\Usuário\Documents\\Juan M. Silva\mostracientifica\\images\\et.png")
+cenario1 = pygame.image.load("images\\estrelas 1.png")
+cenario2 = pygame.image.load("images\\estrelas 2.png")
+cenario3 = pygame.image.load("images\\estrelas 3.png")
+cenario4 = pygame.image.load("images\\estrelas 4.png")
+cenario5 = pygame.image.load("images\\estrelas 5.png")
+cenario100 = pygame.image.load("images\\terra1.png")
+cenario101 = pygame.image.load("images\\terra2.png")
+cenario102 = pygame.image.load("images\\terra3.png")
+cenario103 = pygame.image.load("images\\terra4.png")
+cenario104 = pygame.image.load("images\\lua.png")
+inicio = pygame.image.load("images\\inicio.png")
+morte = pygame.image.load("images\\morte.png")
+venceu = pygame.image.load("images\\venceu.png")
+et = pygame.image.load("images\\et.png")
 class Scnery():
     def __init__(self, size):
         self.size = size
@@ -100,25 +100,25 @@ class Nave(pygame.sprite.Sprite):
     def __init__(self):
         pygame.sprite.Sprite.__init__(self)
         self.sprites = []
-        self.sprites.append(pygame.image.load("C:\\Users\\Usuário\Documents\\Juan M. Silva\mostracientifica\\images\\sprites_nave\\nave1.png"))
-        self.sprites.append(pygame.image.load("C:\\Users\\Usuário\Documents\\Juan M. Silva\mostracientifica\\images\\sprites_nave\\nave2.png"))
-        self.sprites.append(pygame.image.load("C:\\Users\\Usuário\Documents\\Juan M. Silva\mostracientifica\\images\\sprites_nave\\nave3.png"))
-        self.sprites.append(pygame.image.load("C:\\Users\\Usuário\Documents\\Juan M. Silva\mostracientifica\\images\\sprites_nave\\nave4.png"))
+        self.sprites.append(pygame.image.load("images\\sprites_nave\\nave1.png"))
+        self.sprites.append(pygame.image.load("images\\sprites_nave\\nave2.png"))
+        self.sprites.append(pygame.image.load("images\\sprites_nave\\nave3.png"))
+        self.sprites.append(pygame.image.load("images\\sprites_nave\\nave4.png"))
         self.sprites1 = []
-        self.sprites1.append(pygame.image.load("C:\\Users\\Usuário\Documents\\Juan M. Silva\mostracientifica\\images\\sprites_nave1\\nave1.png"))
-        self.sprites1.append(pygame.image.load("C:\\Users\\Usuário\Documents\\Juan M. Silva\mostracientifica\\images\\sprites_nave1\\nave2.png"))
-        self.sprites1.append(pygame.image.load("C:\\Users\\Usuário\Documents\\Juan M. Silva\mostracientifica\\images\\sprites_nave1\\nave3.png"))
-        self.sprites1.append(pygame.image.load("C:\\Users\\Usuário\Documents\\Juan M. Silva\mostracientifica\\images\\sprites_nave1\\nave4.png"))
+        self.sprites1.append(pygame.image.load("images\\sprites_nave1\\nave1.png"))
+        self.sprites1.append(pygame.image.load("images\\sprites_nave1\\nave2.png"))
+        self.sprites1.append(pygame.image.load("images\\sprites_nave1\\nave3.png"))
+        self.sprites1.append(pygame.image.load("images\\sprites_nave1\\nave4.png"))
         self.sprites2 = []
-        self.sprites2.append(pygame.image.load("C:\\Users\\Usuário\Documents\\Juan M. Silva\mostracientifica\\images\\sprites_nave2\\nave1.png"))
-        self.sprites2.append(pygame.image.load("C:\\Users\\Usuário\Documents\\Juan M. Silva\mostracientifica\\images\\sprites_nave2\\nave2.png"))
-        self.sprites2.append(pygame.image.load("C:\\Users\\Usuário\Documents\\Juan M. Silva\mostracientifica\\images\\sprites_nave2\\nave3.png"))
-        self.sprites2.append(pygame.image.load("C:\\Users\\Usuário\Documents\\Juan M. Silva\mostracientifica\\images\\sprites_nave2\\nave4.png"))
+        self.sprites2.append(pygame.image.load("images\\sprites_nave2\\nave1.png"))
+        self.sprites2.append(pygame.image.load("images\\sprites_nave2\\nave2.png"))
+        self.sprites2.append(pygame.image.load("images\\sprites_nave2\\nave3.png"))
+        self.sprites2.append(pygame.image.load("images\\sprites_nave2\\nave4.png"))
         self.sprites3 = []
-        self.sprites3.append(pygame.image.load("C:\\Users\\Usuário\Documents\\Juan M. Silva\mostracientifica\\images\\sprites_nave3\\nave1.png"))
-        self.sprites3.append(pygame.image.load("C:\\Users\\Usuário\Documents\\Juan M. Silva\mostracientifica\\images\\sprites_nave3\\nave2.png"))
-        self.sprites3.append(pygame.image.load("C:\\Users\\Usuário\Documents\\Juan M. Silva\mostracientifica\\images\\sprites_nave3\\nave3.png"))
-        self.sprites3.append(pygame.image.load("C:\\Users\\Usuário\Documents\\Juan M. Silva\mostracientifica\\images\\sprites_nave3\\nave4.png"))
+        self.sprites3.append(pygame.image.load("images\\sprites_nave3\\nave1.png"))
+        self.sprites3.append(pygame.image.load("images\\sprites_nave3\\nave2.png"))
+        self.sprites3.append(pygame.image.load("images\\sprites_nave3\\nave3.png"))
+        self.sprites3.append(pygame.image.load("images\\sprites_nave3\\nave4.png"))
         self.atual = 0
         self.speed_x_nave = 0.0
         self.speed_y_nave = 0.0
@@ -265,9 +265,9 @@ class Meteoro(Nave, pygame.sprite.Sprite):
         Nave.__init__(self)
         pygame.sprite.Sprite.__init__(self)
         self.sprites6 = []
-        self.sprites6.append(pygame.image.load("C:\\Users\\Usuário\Documents\\Juan M. Silva\mostracientifica\\images\\meteoro2.png"))
-        self.sprites6.append(pygame.image.load("C:\\Users\\Usuário\Documents\\Juan M. Silva\mostracientifica\\images\\meteoro1.png"))
-        self.sprites6.append(pygame.image.load("C:\\Users\\Usuário\Documents\\Juan M. Silva\mostracientifica\\images\\meteoro.png"))
+        self.sprites6.append(pygame.image.load("images\\meteoro2.png"))
+        self.sprites6.append(pygame.image.load("images\\meteoro1.png"))
+        self.sprites6.append(pygame.image.load("images\\meteoro.png"))
         self.atual = 0
         self.image = self.sprites6[self.atual]
         self.speed_x_meteoro = 1970
@@ -304,8 +304,8 @@ class Hubble(pygame.sprite.Sprite):
     def __init__(self):
         pygame.sprite.Sprite.__init__(self)
         self.sprites = []
-        self.sprites.append(pygame.image.load("C:\\Users\\Usuário\Documents\\Juan M. Silva\mostracientifica\\images\\hubble.png"))
-        self.sprites.append(pygame.image.load("C:\\Users\\Usuário\Documents\\Juan M. Silva\mostracientifica\\images\\hubble2.png"))
+        self.sprites.append(pygame.image.load("images\\hubble.png"))
+        self.sprites.append(pygame.image.load("images\\hubble2.png"))
         self.atual = 0
         self.speed_x_hubble = 1632
         self.speed_y_hubble = 672
@@ -348,18 +348,18 @@ class Lancamento(pygame.sprite.Sprite):
     def __init__(self):
         pygame.sprite.Sprite.__init__(self)
         self.sprites = []
-        self.sprites.append(pygame.image.load("C:\\Users\\Usuário\Documents\\Juan M. Silva\mostracientifica\\images\\sprites_lançamento\\lançamento1.png"))
-        self.sprites.append(pygame.image.load("C:\\Users\\Usuário\Documents\\Juan M. Silva\mostracientifica\\images\\sprites_lançamento\\lançamento2.png"))
-        self.sprites.append(pygame.image.load("C:\\Users\\Usuário\Documents\\Juan M. Silva\mostracientifica\\images\\sprites_lançamento\\lançamento3.png"))
-        self.sprites.append(pygame.image.load("C:\\Users\\Usuário\Documents\\Juan M. Silva\mostracientifica\\images\\sprites_lançamento\\lançamento4.png"))
-        self.sprites.append(pygame.image.load("C:\\Users\\Usuário\Documents\\Juan M. Silva\mostracientifica\\images\\sprites_lançamento\\lançamento5.png"))
-        self.sprites.append(pygame.image.load("C:\\Users\\Usuário\Documents\\Juan M. Silva\mostracientifica\\images\\sprites_lançamento\\lançamento6.png"))
-        self.sprites.append(pygame.image.load("C:\\Users\\Usuário\Documents\\Juan M. Silva\mostracientifica\\images\\sprites_lançamento\\lançamento7.png"))
-        self.sprites.append(pygame.image.load("C:\\Users\\Usuário\Documents\\Juan M. Silva\mostracientifica\\images\\sprites_lançamento\\lançamento8.png"))
-        self.sprites.append(pygame.image.load("C:\\Users\\Usuário\Documents\\Juan M. Silva\mostracientifica\\images\\sprites_lançamento\\lançamento9.png"))
-        self.sprites.append(pygame.image.load("C:\\Users\\Usuário\Documents\\Juan M. Silva\mostracientifica\\images\\sprites_lançamento\\lançamento10.png"))
-        self.sprites.append(pygame.image.load("C:\\Users\\Usuário\Documents\\Juan M. Silva\mostracientifica\\images\\sprites_lançamento\\lançamento11.png"))
-        self.sprites.append(pygame.image.load("C:\\Users\\Usuário\Documents\\Juan M. Silva\mostracientifica\\images\\sprites_lançamento\\lançamento12.png"))
+        self.sprites.append(pygame.image.load("images\\sprites_lançamento\\lançamento1.png"))
+        self.sprites.append(pygame.image.load("images\\sprites_lançamento\\lançamento2.png"))
+        self.sprites.append(pygame.image.load("images\\sprites_lançamento\\lançamento3.png"))
+        self.sprites.append(pygame.image.load("images\\sprites_lançamento\\lançamento4.png"))
+        self.sprites.append(pygame.image.load("images\\sprites_lançamento\\lançamento5.png"))
+        self.sprites.append(pygame.image.load("images\\sprites_lançamento\\lançamento6.png"))
+        self.sprites.append(pygame.image.load("images\\sprites_lançamento\\lançamento7.png"))
+        self.sprites.append(pygame.image.load("images\\sprites_lançamento\\lançamento8.png"))
+        self.sprites.append(pygame.image.load("images\\sprites_lançamento\\lançamento9.png"))
+        self.sprites.append(pygame.image.load("images\\sprites_lançamento\\lançamento10.png"))
+        self.sprites.append(pygame.image.load("images\\sprites_lançamento\\lançamento11.png"))
+        self.sprites.append(pygame.image.load("images\\sprites_lançamento\\lançamento12.png"))
 
         self.atual = 0
         self.image = self.sprites[self.atual]
@@ -384,21 +384,21 @@ class Chegada_espaco(pygame.sprite.Sprite):
     def __init__(self):
         pygame.sprite.Sprite.__init__(self)
         self.sprites = []
-        self.sprites.append(pygame.image.load("C:\\Users\\Usuário\Documents\\Juan M. Silva\mostracientifica\\images\\sprites_chegada_espaço\\chegada1.png"))
-        self.sprites.append(pygame.image.load("C:\\Users\\Usuário\Documents\\Juan M. Silva\mostracientifica\\images\\sprites_chegada_espaço\\chegada2.png"))
-        self.sprites.append(pygame.image.load("C:\\Users\\Usuário\Documents\\Juan M. Silva\mostracientifica\\images\\sprites_chegada_espaço\\chegada3.png"))
-        self.sprites.append(pygame.image.load("C:\\Users\\Usuário\Documents\\Juan M. Silva\mostracientifica\\images\\sprites_chegada_espaço\\chegada4.png"))
-        self.sprites.append(pygame.image.load("C:\\Users\\Usuário\Documents\\Juan M. Silva\mostracientifica\\images\\sprites_chegada_espaço\\chegada5.png"))
-        self.sprites.append(pygame.image.load("C:\\Users\\Usuário\Documents\\Juan M. Silva\mostracientifica\\images\\sprites_chegada_espaço\\chegada6.png"))
-        self.sprites.append(pygame.image.load("C:\\Users\\Usuário\Documents\\Juan M. Silva\mostracientifica\\images\\sprites_chegada_espaço\\chegada7.png"))
-        self.sprites.append(pygame.image.load("C:\\Users\\Usuário\Documents\\Juan M. Silva\mostracientifica\\images\\sprites_chegada_espaço\\chegada8.png"))
-        self.sprites.append(pygame.image.load("C:\\Users\\Usuário\Documents\\Juan M. Silva\mostracientifica\\images\\sprites_chegada_espaço\\chegada9.png"))
-        self.sprites.append(pygame.image.load("C:\\Users\\Usuário\Documents\\Juan M. Silva\mostracientifica\\images\\sprites_chegada_espaço\\chegada10.png"))
-        self.sprites.append(pygame.image.load("C:\\Users\\Usuário\Documents\\Juan M. Silva\mostracientifica\\images\\sprites_chegada_espaço\\chegada11.png"))
-        self.sprites.append(pygame.image.load("C:\\Users\\Usuário\Documents\\Juan M. Silva\mostracientifica\\images\\sprites_chegada_espaço\\chegada12.png"))
-        self.sprites.append(pygame.image.load("C:\\Users\\Usuário\Documents\\Juan M. Silva\mostracientifica\\images\\sprites_chegada_espaço\\chegada13.png"))
-        self.sprites.append(pygame.image.load("C:\\Users\\Usuário\Documents\\Juan M. Silva\mostracientifica\\images\\sprites_chegada_espaço\\chegada14.png"))
-        self.sprites.append(pygame.image.load("C:\\Users\\Usuário\Documents\\Juan M. Silva\mostracientifica\\images\\sprites_chegada_espaço\\chegada15.png"))
+        self.sprites.append(pygame.image.load("images\\sprites_chegada_espaço\\chegada1.png"))
+        self.sprites.append(pygame.image.load("images\\sprites_chegada_espaço\\chegada2.png"))
+        self.sprites.append(pygame.image.load("images\\sprites_chegada_espaço\\chegada3.png"))
+        self.sprites.append(pygame.image.load("images\\sprites_chegada_espaço\\chegada4.png"))
+        self.sprites.append(pygame.image.load("images\\sprites_chegada_espaço\\chegada5.png"))
+        self.sprites.append(pygame.image.load("images\\sprites_chegada_espaço\\chegada6.png"))
+        self.sprites.append(pygame.image.load("images\\sprites_chegada_espaço\\chegada7.png"))
+        self.sprites.append(pygame.image.load("images\\sprites_chegada_espaço\\chegada8.png"))
+        self.sprites.append(pygame.image.load("images\\sprites_chegada_espaço\\chegada9.png"))
+        self.sprites.append(pygame.image.load("images\\sprites_chegada_espaço\\chegada10.png"))
+        self.sprites.append(pygame.image.load("images\\sprites_chegada_espaço\\chegada11.png"))
+        self.sprites.append(pygame.image.load("images\\sprites_chegada_espaço\\chegada12.png"))
+        self.sprites.append(pygame.image.load("images\\sprites_chegada_espaço\\chegada13.png"))
+        self.sprites.append(pygame.image.load("images\\sprites_chegada_espaço\\chegada14.png"))
+        self.sprites.append(pygame.image.load("images\\sprites_chegada_espaço\\chegada15.png"))
         self.atual = 0
         self.image = self.sprites[self.atual]
         self.x = 0
@@ -422,17 +422,17 @@ class retorno_espaco(pygame.sprite.Sprite):
     def __init__(self):
         pygame.sprite.Sprite.__init__(self)
         self.sprites = []
-        self.sprites.append(pygame.image.load("C:\\Users\\Usuário\Documents\\Juan M. Silva\mostracientifica\\images\\pouso\\pouso1.png"))
-        self.sprites.append(pygame.image.load("C:\\Users\\Usuário\Documents\\Juan M. Silva\mostracientifica\\images\\pouso\\pouso2.png"))
-        self.sprites.append(pygame.image.load("C:\\Users\\Usuário\Documents\\Juan M. Silva\mostracientifica\\images\\pouso\\pouso3.png"))
-        self.sprites.append(pygame.image.load("C:\\Users\\Usuário\Documents\\Juan M. Silva\mostracientifica\\images\\pouso\\pouso4.png"))
-        self.sprites.append(pygame.image.load("C:\\Users\\Usuário\Documents\\Juan M. Silva\mostracientifica\\images\\pouso\\pouso5.png"))
-        self.sprites.append(pygame.image.load("C:\\Users\\Usuário\Documents\\Juan M. Silva\mostracientifica\\images\\pouso\\pouso6.png"))
-        self.sprites.append(pygame.image.load("C:\\Users\\Usuário\Documents\\Juan M. Silva\mostracientifica\\images\\pouso\\pouso7.png"))
-        self.sprites.append(pygame.image.load("C:\\Users\\Usuário\Documents\\Juan M. Silva\mostracientifica\\images\\pouso\\pouso8.png"))
-        self.sprites.append(pygame.image.load("C:\\Users\\Usuário\Documents\\Juan M. Silva\mostracientifica\\images\\pouso\\pouso9.png"))
-        self.sprites.append(pygame.image.load("C:\\Users\\Usuário\Documents\\Juan M. Silva\mostracientifica\\images\\pouso\\pouso10.png"))
-        self.sprites.append(pygame.image.load("C:\\Users\\Usuário\Documents\\Juan M. Silva\mostracientifica\\images\\pouso\\pouso11.png"))
+        self.sprites.append(pygame.image.load("images\\pouso\\pouso1.png"))
+        self.sprites.append(pygame.image.load("images\\pouso\\pouso2.png"))
+        self.sprites.append(pygame.image.load("images\\pouso\\pouso3.png"))
+        self.sprites.append(pygame.image.load("images\\pouso\\pouso4.png"))
+        self.sprites.append(pygame.image.load("images\\pouso\\pouso5.png"))
+        self.sprites.append(pygame.image.load("images\\pouso\\pouso6.png"))
+        self.sprites.append(pygame.image.load("images\\pouso\\pouso7.png"))
+        self.sprites.append(pygame.image.load("images\\pouso\\pouso8.png"))
+        self.sprites.append(pygame.image.load("images\\pouso\\pouso9.png"))
+        self.sprites.append(pygame.image.load("images\\pouso\\pouso10.png"))
+        self.sprites.append(pygame.image.load("images\\pouso\\pouso11.png"))
         self.atual = 0
         self.image = self.sprites[self.atual]
         self.x = 0
